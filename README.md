@@ -1,0 +1,1 @@
+This is a current project that I am working on. I want to make a Body Mass Index webpage that will print out your name and BMI and category on a different page. An extended project would be to have age factored into this equation.
