@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Body Mass Index</title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="BMI.css" />
+  </head>
+  <body>
+    <h1>Body Mass Index</h1>
+    <p>This form is for the user to input information, weight, and height. Based on the body specification,
+    the results will yield BMI (Body Mass Index) also display the user's weight condition. The weight 
+    condition are as follow: <strong>Underweight, Normal, Overweight, and Obese</strong>.
+    </p>
+
+
+    <br/>
+    <div class="cortainer">
+    <div id="currentTime" class="currentTime"></div><h3>Memphis, Tennessee</h3>
+    <div id="LAcurrent" class="LAcurrent"></div><h3>Los Angeles, California</h3>
+    <div id="Tokyocurrent" class="Tokyocurrent"></div><h3>Tokyo, Japan</h3>
+    <div id="Currenttime" class="Currenttime"></div>
+    <div id="CurrentTime" class="CurrentTime"></div>
+    </div>
+
+    <div class="container">
+      <div class="input">
+    <form>
+    <fieldset>
+        <legend><h4>BMI USER INPUT</h4></legend>
+        <img src="healthy-body.jpg" alt="Healthy Body" class="health" width="600px" height="600px"  align="right"/>
+        
+            <input type="text" id="Fname"  placeholder="First Name" maxlegnth="30"><br>
+            
+            <input type="number" id="age" placeholder="Age" min="17" max="110"><br>
+            
+            <input type="number" id="pounds" placeholder="Pounds" required min="80" max="300"/><br>
+           
+            <input type="number" id="inches"  placeholder="Inches" required min="10" max="110"/><br>
+
+    <!-- <button type="button" name="calculate" value="Compute BMI" onclick="check(myFitBMI)">Compute BMI</button> -->
+            <button type="button" onclick="myFitBMI()">Compute BMI</button>
+            <button type="reset">Clear</button>
+    </fieldset>
+    </form>
+<!--</div>
+<div class="results">
+      <fieldset>
+        <legend><h4>RESULTS</h4></legend>
+            <input type="text"  name="BMI" placeholder="Body Mass Index" id="BMI" onfocus="this.blur()"/>
+            <input type="text"  name="condition" placeholder="Weight Condition" id="condition" onfocus="this.blur()"/>
+            <img src="healthy-life.jpg" alt="Healthy Life" class="health" width="55%" height="100%" align="right"/>
+      </fieldset>
+    </div>
+  </div>
+  <br>
+      <fieldset class="indicate">
+       <legend><h4>Body Mass Index Scale:</h4></legend>
+        <img src="bmi-indicator.jpg" alt="BMI Indicator" class="Scale" width="100%" height="650px"/>
+      </fieldset>-->
+      <script src="BMI.js"></script>
+  </body>
+</html>

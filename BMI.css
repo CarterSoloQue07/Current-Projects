@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+}
+p, h2, legend
+{    
+    font-size: 1.5rem;
+    text-align: center;
+}
+.currentTime, .CurrentTime, .Currenttime, .LAcurrent, .Tokyocurrent{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(54, 11, 54);
+    
+}
+.cortainer, .container, .result{
+    width: 80%;
+    text-align: center;
+}
+
+.cortainer{
+    padding: 20px 0 20px 0;
+    border: 6px solid goldenrod;  
+}
+
+fieldset{
+    border-color: goldenrod;
+}
+
+.indicate {
+    width: 100%;
+}
+.Scale{
+    margin-top: -1rem;
+}
+.health{
+    margin-top: 1.2rem;
+    width: 55%;
+    height: 65%;
+}
+
+#BMI, #condition{
+    font-size: .7rem;
+    padding: 20px;
+    width: 150px;
+    border: 3px solid rgb(54, 11, 54);
+}
+
+#Fname, #age, #pounds, #inches{
+    font-size: 1.2rem;
+    margin: 5px;
+    padding: 20px;
+    border: 5px solid rgb(54, 11, 54);
+}
+
+#BMI::placeholder, #condition::placeholder, #Fname::placeholder, #age::placeholder, #pounds::placeholder, #inches::placeholder {
+    color:goldenrod;
+}
+
+button{
+    font-size: 1.2rem;
+    margin: 5px;
+    padding: 20px;
+    color: goldenrod;
+    background-color:rgb(54, 11, 54);
+    border-color: goldenrod;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.resultLabel{
+    color: goldenrod;
+}
+
+
+
