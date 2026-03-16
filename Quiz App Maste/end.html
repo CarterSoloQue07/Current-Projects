@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Score</title>
+    <link rel="stylesheet" href= "app.css">
+</head>
+<body>
+    <div id="end" class="flex-center flex-column">
+        <h2>Your Score is:</h2>
+        <h1 id="finalScore"></h1>
+        <form>
+            <input type="text" name="username" id="username" placeholder="Username" required><br/>
+           <!-- <button type="button" id="reset" value="Start Over">Start Over</button> -->
+            <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">Save</button>
+        </form>
+        <a class="btn" href="/game.html">Play</a>
+        <a class="btn" href="/highscores.html">High Scores</a>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
