@@ -1,0 +1,39 @@
+<h1 id="title">Build a Survey Form Assignment</h1>
+  <p id="description">This form is for the purposes of obtaining the certification.</p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label">Name</label>
+    <br />
+    <input id="name" type="text" placeholder="Name" required>
+    <br />
+    <label id="email-label">Email</label>
+    <br />
+    <input id="email" type="email" placeholder="Email" required >
+    <br />
+    <label id="number-label">Number</label>
+    <br />
+    <input id="number" type="number" placeholder="Number" min="1" max="10">
+    <br />
+    <label id="dropdown-label">Gender:</label>
+    <select id="dropdown">
+      <option value="male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+    </fieldset>
+    <br />
+    <fieldset>
+    <input type="radio" name="fav_language" value="Java">
+    <label for="Java">Java</label><br>
+    <input type="radio" name="fav_language"    value="JavaScript">
+    <label for="javascript">JavaScript</label>
+    <br> 
+    <input type="checkbox" id="front-end" value="front-end"> Front-end <br>
+    <input type="checkbox" id="back-end" value="back-end"> Back-end <br>
+    <input type="checkbox" id="both" value="both"> Webpage Developer
+    </fieldset>
+    <br>
+    <textarea name="comments" cols="20" rows="4">Additional Comments</textarea><br>
+  <input type="submit" id="submit">
+  </form>
+   
+<link rel="stylesheet" href="Cert Form.css">
