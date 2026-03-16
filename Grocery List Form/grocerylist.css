@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(
+        35deg,
+        black 60%,
+        goldenrod 0%
+    );
+    color: goldenrod;
+    overflow: hidden;
+    margin: auto;
+    height: 100vh;
+    padding: 100px;
+    border: 10px solid rgb(57, 4, 57);
+}
+
+label, input{
+    display: block;
+    margin-bottom: 15px;
+}
+
+label{
+    float: left;
+    width: 120px;
+}
+
+input{
+    /*margin-left: 100px;*/
+    border: 2px solid goldenrod;
+    width: 25%;
+}
+#done, #clear {
+    display: inline;
+}
+
+#done{
+    margin-left: 120px;
+}
+
+#done, #clear{
+    background-color: rgb(57, 4, 57);
+    color: goldenrod;
+}
+
+fieldset{
+    border-color: rgb(57, 4, 57);
+    width: 22%;
+}

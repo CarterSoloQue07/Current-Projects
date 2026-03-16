@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Fruit Grocery List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link href="grocerylist.css" rel="stylesheet" />
+    <script src="groceryList.js"></script>
+    </head>
+    <body>
+        <div class="grid1">    
+        <p class="descript">This is a brief shopping list for different fruits.</p>
+        <fieldset>
+        <legend><h1>Grocery List for Fruit</h1></legend>
+        <form id="grocers">
+            <!--<label>First Name</label><input type="text" name="first" id="firstName">-->
+            <label>Apples</label><input type="text" name="apple" id="outApple" placeholder="$1.50 per pack">
+            <label>Oranges</label><input type="text" name="orange" id="outOrange" placeholder="$1.99 per pack">
+            <label>Peaches</label><input type="text" name="peach" id="outPeach" placeholder="$1.99 each">
+            <label>Bananas</label><input type="text" name="banana" id="outBanana" placeholder=".63&cent each">
+            <div class="push">
+                <input type="button" name="done" id="done" value="Submit" onclick="check(grocers)"; />
+                <input type="reset" name="clear" id="clear" value="Clear"; />
+            </div>
+            <label>Total before tax</label><input type="text" name="totalB4" onfocus="this.blur();"/>
+            <label>Tax (7.25%)</label><input type="text" name="outTax" onfocus="this.blur();" />
+            <label>Total after Tax</label><input type="text" name="taxAfter" onfocus="this.blur();" />
+        </form>
+    </fieldset>
+        </div>
+    </body>
+</html>
